@@ -15,7 +15,7 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: ['babel-loader']
-      }, 
+      },
       //加载scss|less|css等样式文件
       {
         test: /\.(scss|less|css)$/,
@@ -49,6 +49,6 @@ module.exports = {
     //是否热加载
     hot: true,
     //加载IP地址
-    host: '0.0.0.0',
+    host: '127.0.0.1',
   }
 };
